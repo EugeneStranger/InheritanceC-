@@ -11,8 +11,8 @@ namespace AbstructGeometry
 {
     class Circle : Shape
     {
+        public static readonly double PI = 3.14159265359;
         double radius;
-        public static double PI = 3.14159265359;
         public double Radius
         {
             get { return radius; }
