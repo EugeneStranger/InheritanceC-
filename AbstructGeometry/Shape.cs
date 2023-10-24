@@ -70,7 +70,7 @@ namespace AbstructGeometry
         {
             Console.WriteLine($"Площадь фигуры: {this.GetArea()}");
             Console.WriteLine($"Периметр фигуры: {this.GetPerimiter()}");
-            this.Draw(e);
+            //this.Draw(e);
             Console.WriteLine();
         }
     }

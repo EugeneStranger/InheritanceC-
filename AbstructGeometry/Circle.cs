@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace AbstructGeometry
 {
-    class Circle : Shape
+    class Circle : Shape, IDrawable
     {
         public static readonly double PI = 3.14159265359;
         double radius;
@@ -46,6 +46,7 @@ namespace AbstructGeometry
         {
             Console.WriteLine($"Радиус окружности: {Radius}");
             Console.WriteLine($"Длинна окружности: {GetPerimiter()}");
+            this.Draw(e);
         }
     }
 }

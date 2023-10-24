@@ -1,6 +1,6 @@
-﻿//#define RECTANGLE
+﻿#define RECTANGLE
 //#define TRIANGLE
-#define CIRCLE
+//#define CIRCLE
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -31,9 +31,11 @@ namespace AbstructGeometry
             int a = Convert.ToInt32(Console.ReadLine());
             int b = Convert.ToInt32(Console.ReadLine());
             start_x = 150;
-            start_y = 150 + b;
+            start_y = 150;
             Rectangle rect = new Rectangle(a, b, start_x, start_y, 5, Color.SkyBlue);
             rect.Info(e);
+            Square square = new Square(120, 400, 100, 3, Color.Red);
+            square.Info(e);
 #endif
 #if TRIANGLE
             Console.WriteLine("Введите размеры треугольника (длина 1-й стороны, длина 2-й стороны, угол между сторонами в градусах):");
