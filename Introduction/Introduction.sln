@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Introduction", "Introductio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fraction", "Fraction\Fraction.csproj", "{14CEF790-920F-41B1-9EB2-5B639B66D48C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shooter", "Shooter\Shooter.csproj", "{81BE7CFA-EAA2-40A5-A6E3-BD3B5BCB0239}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{14CEF790-920F-41B1-9EB2-5B639B66D48C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14CEF790-920F-41B1-9EB2-5B639B66D48C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14CEF790-920F-41B1-9EB2-5B639B66D48C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81BE7CFA-EAA2-40A5-A6E3-BD3B5BCB0239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81BE7CFA-EAA2-40A5-A6E3-BD3B5BCB0239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81BE7CFA-EAA2-40A5-A6E3-BD3B5BCB0239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81BE7CFA-EAA2-40A5-A6E3-BD3B5BCB0239}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
